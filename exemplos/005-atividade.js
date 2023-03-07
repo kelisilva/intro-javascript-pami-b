@@ -1,10 +1,22 @@
 let entrada = require ('prompt-sync')()
 
-let nota = entrada ('Digite sua nota');
+valor  = entrada ('Digite a 1º nota');
+ let n1 = parseFloat(valor) ;
 
-if (nota == 5) {  
-    console.log ('aluno recebe I ') ;
+valor  = entrada ('Digite a 2º nota');
+    let n2 = parseFloat (valor)
+
+let media  = (n1 + n2)/2;
+if (media == 5) {  
+    nota= 'aluno recebe I ' ;
 }
-if (nota >=5 && nota <6.5 ){
-     console.log ('aluno')
+if (media >=5 && media <6.5 ){
+    valor = 'aluno recebe R ' ;
 }
+if (media >=6.5 && media <8.5 ){
+    valor = 'aluno recebe  B';
+}
+if (media >=8.5 ){
+   valor='aluno recebe  MB';
+}
+console.log ( media = valor)

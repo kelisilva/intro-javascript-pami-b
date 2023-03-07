@@ -27,9 +27,12 @@ console.log (altura_pessoa);
 console.log ('nome : ' + nome);
 console.log ('0'  + nome + 'tem' + idade + 'anos.');
 console.log('');;
-console.log('------------------')
-console.log(typeof(trabalha))
-
+console.log('------------------');
+console.log(typeof(trabalha));
+console.log ((typeof));
+const ehArray = Array.isArray(coresFavoritas);
+console.log (ahArray === true ? 'é um Array ' ; 'Não é um array') ;
+if (eharray === true)
 
 
 
