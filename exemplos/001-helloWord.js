@@ -29,12 +29,19 @@ console.log ('0'  + nome + 'tem' + idade + 'anos.');
 console.log('');;
 console.log('------------------');
 console.log(typeof(trabalha));
-console.log ((typeof));
+console.log ((typeoy));
 const ehArray = Array.isArray(coresFavoritas);
-console.log (ahArray === true ? 'é um Array ' ; 'Não é um array') ;
-if (eharray === true)
-
-
+console.log (ahArray === true ? 'é um Array ' : 'Não é um array') ;
+if (eharray === true){
+console.log('é um array');
+}else {
+    console.log ('não é um array');
+}
+// mostrar valor dr objeto 
+console.log ('objeto');
+console.log ('endereço');
+console.log ('endereço.bairro');
+console.log ('endereço.logradouro .+.'.'+. endereço.nmlog.+.'.nº+);
 
 
 
